@@ -1,4 +1,5 @@
 import NewsletterModal from "@/components/common/NewsLeterModal";
+import { Events } from "@/components/pages/home/Events";
 import { FeatureArtWork } from "@/components/pages/home/FeatureArtWork";
 import { Hero } from "@/components/pages/home/Hero";
 import { OpenCallsSection } from "@/components/pages/home/OpenCalls";
@@ -11,6 +12,7 @@ const HomePage = () => {
         <Hero />
         <OpenCallsSection />
         <FeatureArtWork />
+        <Events />
       </Container>
       {/* Newsletter Popup Modal */}
       <NewsletterModal />
