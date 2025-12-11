@@ -11,7 +11,7 @@ export function FeatureArtWork() {
           Featured ArtWork
         </h2>
         <Link
-          href="/open-calls"
+          href="/artworks"
           className="flex items-center gap-1 text-sm font-medium text-foreground hover:text-foreground/70 transition-colors"
         >
           View All

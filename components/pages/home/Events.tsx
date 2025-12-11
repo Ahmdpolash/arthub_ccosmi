@@ -11,7 +11,7 @@ export function Events() {
           Events
         </h2>
         <Link
-          href="/open-calls"
+          href="/events"
           className="flex items-center gap-1 text-sm font-medium text-foreground hover:text-foreground/70 transition-colors"
         >
           View All
@@ -24,7 +24,7 @@ export function Events() {
           <div>
             <div className="bg-white p-4 flex flex-col lg:flex-row rounded-xl border border-gray-200 shadow-md w-full ">
               {/* 1. Image Section (Left) */}
-              <div className="flex-shrink-0   overflow-hidden rounded-lg lg:mr-4">
+              <div className="shrink-0   overflow-hidden rounded-lg lg:mr-4">
                 {/* Placeholder image closely mimicking the style in the screenshot */}
                 <Image
                   src={"/event.png"}
@@ -36,7 +36,7 @@ export function Events() {
               </div>
 
               {/* 2. Content Section (Right) */}
-              <div className="flex-grow flex flex-col justify-between py-1 space-y- mt-2 lg:mt-0">
+              <div className="grow flex flex-col justify-between py-1 space-y- mt-2 lg:mt-0">
                 {/* Top Row: Title and Tags */}
                 <div className="flex flex-col lg:flex-row lg:justify-between items-start mb-2">
                   <h2 className="text-xl md:text-2xl font-semibold lg:font-bold text-gray-900 font-inter">
