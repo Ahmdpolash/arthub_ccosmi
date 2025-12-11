@@ -42,7 +42,7 @@ export function Events() {
                   <h2 className="text-xl md:text-2xl font-semibold lg:font-bold text-gray-900 font-inter">
                     Art Fusion Festival 2025
                   </h2>
-                  <div className="py-2 lg:py-0 flex space-x-2 flex-shrink-0 lg:ml-4 text-start items-start">
+                  {/* <div className="py-2 lg:py-0 flex space-x-2 flex-shrink-0 lg:ml-4 text-start items-start">
                     <span
                       className={`px-3 py-1 text-sm font-medium rounded-full  text-red-500 border-red-300 bg-opacity-5 border`}
                     >
@@ -53,7 +53,7 @@ export function Events() {
                     >
                       Paid
                     </span>
-                  </div>
+                  </div> */}
                 </div>
 
                 {/* Middle Section: Details */}
