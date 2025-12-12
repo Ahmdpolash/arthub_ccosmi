@@ -140,3 +140,51 @@ export const cards = [
     image: "/_next/static/media/lime.1234567890.png",
   },
 ];
+
+export const eventsData = [
+  {
+    id: 1,
+    title: "Art Fusion Festival 2025",
+    location: "Dhaka Art Center, Dhanmondi, Bangladesh",
+    image: "/event.png",
+    start_date: "May 20, 2025",
+    end_date: "May 22, 2025",
+    tags: ["Offline", "Paid"],
+  },
+  {
+    id: 2,
+    title: "Emerging Artists Residency 2025",
+    location: "London, United Kingdom",
+    image: "/event.png",
+    start_date: "June 2, 2025",
+    end_date: "June 12, 2025",
+    tags: ["Offline", "Paid"],
+  },
+  {
+    id: 3,
+    title: "Global Creative Summit 2025",
+    location: "Berlin Art Hall, Germany",
+    image: "/event.png",
+    start_date: "July 10, 2025",
+    end_date: "July 13, 2025",
+    tags: ["Online", "Free"],
+  },
+  {
+    id: 4,
+    title: "Contemporary Makers Expo",
+    location: "Tokyo Arts Center, Japan",
+    image: "/event.png",
+    start_date: "August 1, 2025",
+    end_date: "August 5, 2025",
+    tags: ["Offline"],
+  },
+  {
+    id: 5,
+    title: "Digital Art Week 2025",
+    location: "San Francisco, USA",
+    image: "/event.png",
+    start_date: "September 12, 2025",
+    end_date: "September 16, 2025",
+    tags: ["Online", "Paid"],
+  },
+];
