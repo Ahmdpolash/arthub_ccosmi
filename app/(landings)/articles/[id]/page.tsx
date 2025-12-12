@@ -119,7 +119,7 @@ const ArticleDetailsPage = () => {
 
         {/* Premium Overlay And Bottom Section */}
         {isPremium && !isPaid && (
-          <div className="absolute w-full bottom-0 h-3/4 bg-gradient-to-b from-transparent via-white to-white flex items-end lg:items-center md:items-center justify-center lg:justify-center  rounded-b-lg">
+          <div className="absolute w-full bottom-0 h-3/4 bg-linear-to-b from-transparent via-white to-white flex items-end lg:items-center md:items-center justify-center lg:justify-center  rounded-b-lg">
             <div className="text-center py-16 px-8">
               <div className="flex justify-center mb-6">
                 <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center">

@@ -63,7 +63,7 @@ const ArticlesPage = () => {
                 </div>
 
                 {/* right image */}
-                <div className="flex-shrink-0 lg:ml-4 order-1 lg:order-2">
+                <div className="shrink-0 lg:ml-4 order-1 lg:order-2">
                   <div className="w-full h-24 lg:w-28 lg:h-28 rounded-lg overflow-hidden ring-0">
                     {/* Use next/image or img depending on your stack */}
                     <img

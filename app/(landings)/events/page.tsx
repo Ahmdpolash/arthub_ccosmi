@@ -52,7 +52,7 @@ const EventsPage = () => {
                 className="bg-white p-4 flex flex-col lg:flex-row rounded-xl border border-gray-200 shadow-md w-full"
               >
                 {/* Image */}
-                <div className="flex-shrink-0 overflow-hidden rounded-lg lg:mr-4">
+                <div className="shrink-0 overflow-hidden rounded-lg lg:mr-4">
                   <Image
                     src={event.image}
                     width={110}
@@ -63,7 +63,7 @@ const EventsPage = () => {
                 </div>
 
                 {/* Content */}
-                <div className="flex-grow flex flex-col justify-between py-1 mt-2 lg:mt-0">
+                <div className="grow flex flex-col justify-between py-1 mt-2 lg:mt-0">
                   {/* Title */}
                   <div className="flex flex-col lg:flex-row lg:justify-between items-start mb-2">
                     <h2 className="text-xl md:text-2xl font-semibold lg:font-bold text-gray-900 font-inter">

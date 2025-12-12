@@ -135,7 +135,7 @@ const EmergingArtistsResidency = () => {
                 .filter((item) => item.type !== "badge")
                 .map((item, idx) => (
                   <div key={idx} className="flex items-start gap-3">
-                    <div className="w-10 h-10 bg-gray-100 hover:bg-gray-800 text-gray-600 hover:text-white rounded flex items-center justify-center flex-shrink-0">
+                    <div className="w-10 h-10 bg-gray-100 hover:bg-gray-800 text-gray-600 hover:text-white rounded flex items-center justify-center shrink-0">
                       {item.icon}
                     </div>
                     <div>
